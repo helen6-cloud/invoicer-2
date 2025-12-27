@@ -1,0 +1,60 @@
+@import './base.css';
+
+/* GLOBAL SIFIRLAMALAR (Tüm sayfanın tam ekran olmasını sağlar) */
+html, body, #app {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* Fazla içeriğin yatayda kaymasını engeller */
+    overflow-x: hidden;
+}
+
+/* Sayfa içeriği için genel kurallar */
+#app {
+  /* Tam ekran arka planı engellediği için max-width ve margin kurallarını siliyoruz */
+  /* padding: 2rem; <-- Kayıt sayfası formunun kartı zaten padding'e sahip */
+  font-weight: normal;
+
+  /* Ek stil tekrarı: Emin olmak için tekrar ekleniyor */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ek Stil: Sayfa kaybolduğunda arkaplan rengi görünür */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Link stilleri (Orijinal Koddan Alındı) */
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+/* Büyük ekranlar için stiller (Orijinal Koddan Alındı) */
+@media (min-width: 1024px) {
+  body {
+    /* Bu kural, sayfanın ortalanmış olmasını sağlayabilir.
+       Kayıt/Giriş ekranlarında bunu kaldırmak daha iyi olabilir
+       ancak şimdilik bırakalım. */
+    /* display: flex;
+    place-items: center; */
+  }
+
+  /* #app'in ızgara düzeni (Eğer diğer sayfalarınız için gerekli ise koruyun) */
+  /* #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  } */
+}
