@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Yüzüklerin Efendisi: Yüzük Kardeşliği",
+        "year": 2001,
+        "tip": "F",
+        "overview": "Yüzüğün yolculuğu başlar ve Frodo Baggins, arkadaşlarıyla birlikte Orta Dünya'yı kurtarmak için tehlikeli bir maceraya atılır.",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BN2ZlMDQwMjgtMGM5ZC00MWQ2LTk4NWUtOTg1ODFkMTAwZjQ1XkEyXkFqcGdeQXVyMjg1NDc1Mg@@._V1_FMjpg_UX600_.jpg",
+        "genres": ["Fantastik", "Macera"],
+        "actors": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
+        "imdb_rating": 8.8,
+        "suresi": "2s 58d"
+    },
+    {
+        "title": "Breaking Bad",
+        "year": 2008,
+        "tip": "D",
+        "overview": "Kanser olduğunu öğrenen bir kimya öğretmeni, ailesinin geleceğini güvence altına almak için uyuşturucu üretimine başlar.",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYmQzM2M4YjQtNjU0OC00OWFjLTgzZmYtNmJkZDMyYjNmOGEzXkEyXkFqcGdeQXVyNjcwMzM3NDM@._V1_.jpg",
+        "genres": ["Suç", "Dram", "Gerilim"],
+        "actors": ["Bryan Cranston", "Aaron Paul"],
+        "imdb_rating": 9.5,
+        "suresi": "5 Sezon"
+    },
+    {
+        "title": "The Queen's Gambit",
+        "year": 2020,
+        "tip": "D",
+        "overview": "Yetimhanede büyüyen bir genç kızın, satranç dünyasının en iyisi olma yolundaki zorlu yükselişi.",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMGMzZjgwNzYtYjY1ZS00YTAwLWI0NmItMzY5OGU3MjAwYTU1XkEyXkFqcGdeQXVyMTE0NzI3NTY1._V1_FMjpg_UX600_.jpg",
+        "genres": ["Dram"],
+        "actors": ["Anya Taylor-Joy"],
+        "imdb_rating": 8.6,
+        "suresi": "1 Sezon"
+    },
+    {
+        "title": "Inception (Başlangıç)",
+        "year": 2010,
+        "tip": "F",
+        "overview": "Rüyalara girerek gizli bilgileri çalan bir hırsızın son ve en tehlikeli görevi: Bir fikir ekmek.",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMjAxMzY4Mzc1N15BMl5BanBnXkFtZTcwMzg4NTQ1NA@@._V1_FMjpg_UX600_.jpg",
+        "genres": ["Aksiyon", "Bilim Kurgu"],
+        "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt"],
+        "imdb_rating": 8.8,
+        "suresi": "2s 28d"
+    }
+]
